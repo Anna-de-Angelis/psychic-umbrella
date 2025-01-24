@@ -1,0 +1,139 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definindo a fonte padrão */
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: hsl(0, 0%, 96%);
+    color: #333;
+  }
+  
+  /* Container principal */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header .logo img {
+    width: 150px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Seção principal */
+  .hero {
+    background: url('seu-imagem-de-fundo.jpg') no-repeat center center/cover;
+    color: #003366;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .hero form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero form textarea {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .hero form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .hero form button:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Seção de resultados */
+  #resultados {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  #resultados h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #resultados .resposta {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #resultados .resposta h3 {
+    margin-bottom: 10px;
+  }
+  
+  #resultados .resposta p {
+    font-size: 1.1em;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer .social-media a:hover {
+    text-decoration: underline;
+  }
+  
